@@ -1,3 +1,9 @@
+<script>
+import { fade,fly,slide } from 'svelte/transition';
+import { onMount } from 'svelte';
+let ready = false;
+onMount(() => (ready = true));
+</script>
 <html lang="en">
   <head>
     <title>infO(1)Guides</title>
@@ -82,7 +88,8 @@
       <link href="acasa.css" rel="stylesheet" />
 
       <div class="acasa-container">
-        <div data-role="Header" class="acasa-header">
+        {#if ready}
+        <div data-role="Header" class="acasa-header" in:fade="{{ duration: 1000 }}">
           <header class="acasa-header1">
             <div class="acasa-logo">
               <a href="index.html" class="acasa-navlink">
@@ -95,19 +102,21 @@
               </a>
             </div>
           </header>
-        </div>
+        </div>{/if}
         <!-- svelte-ignore a11y-img-redundant-alt -->
         <div class="acasa-main">
           <div class="acasa-blur-background"></div>
           <div class="acasa-hero">
             <div class="acasa-container1">
-              <h1 class="acasa-text">
+              {#if ready}
+              <h1 class="acasa-text" in:fly="{{ y: -200, duration: 2000 }}">
                 <span>Librăria virtuală de ghiduri</span>
                 <br />
                 <span>pentru FTC și programare.</span>
                 <br />
-              </h1>
-              <div class="acasa-container2">
+              </h1>{/if}
+              {#if ready}
+              <div class="acasa-container2" in:fly="{{ y: 200, duration: 2000 }}">
                 <a href="#ghiduri" class="acasa-link">
                   <div
                     class="primary-button-container primary-button-root-class-name"
@@ -126,7 +135,7 @@
                     </button>
                   </div>
                 </a>
-              </div>
+              </div>{/if}
             </div>
           </div>
           <!-- svelte-ignore a11y-img-redundant-alt -->
