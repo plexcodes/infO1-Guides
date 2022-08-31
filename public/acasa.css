@@ -368,8 +368,11 @@
   justify-content: flex-start;
   background-color: rgba(217, 217, 217, 0.21);
   border-top-right-radius: 15;
+  transition: transform .2s;
 }
-
+.acasa-feature-card1:hover{
+  transform: scale(1.025);
+}
 .acasa-image3 {
   width: 196px;
   height: 129px;
