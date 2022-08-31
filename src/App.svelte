@@ -75,11 +75,11 @@
       href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
       data-tag="font"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div>
-      <link href="./acasa.css" rel="stylesheet" />
+      <link href="acasa.css" rel="stylesheet" />
 
       <div class="acasa-container">
         <div data-role="Header" class="acasa-header">
@@ -89,7 +89,7 @@
                 <!-- svelte-ignore a11y-img-redundant-alt -->
                 <img
                   alt="image"
-                  src="./playground_assets/info%5B1%5Dguides%20%5B1%5D-200h.png"
+                  src="playground_assets/info%5B1%5Dguides%20%5B1%5D-200h.png"
                   class="acasa-image"
                 />
               </a>
@@ -132,23 +132,23 @@
           <!-- svelte-ignore a11y-img-redundant-alt -->
           <img
             alt="image"
-            src="./playground_assets/turquoise-circle.svg"
+            src="playground_assets/turquoise-circle.svg"
             class="acasa-turquoise-cirble"
           />
           <!-- svelte-ignore a11y-img-redundant-alt -->
           <img
             alt="image"
-            src="./playground_assets/4-updated.svg"
+            src="playground_assets/4-updated.svg"
             class="acasa-purple-circle"
           />
           <img
             alt="image"
-            src="./playground_assets/all-green-final-left.svg"
+            src="playground_assets/all-green-final-left.svg"
             class="acasa-left"
           />
           <img
             alt="image"
-            src="./playground_assets/all-green-final-right.svg"
+            src="playground_assets/all-green-final-right.svg"
             class="acasa-right"
           />
         </div>
@@ -165,7 +165,7 @@
           </div>
           <!-- svelte-ignore a11y-img-redundant-alt -->
           <img
-            src="./playground_assets/logo-400w.png"
+            src="playground_assets/logo-400w.png"
             alt="image"
             class="acasa-image1"
           />
@@ -186,7 +186,7 @@
               <!-- svelte-ignore a11y-img-redundant-alt -->
               <img
                 alt="image"
-                src="./playground_assets/gm0-logo-200h.png"
+                src="playground_assets/gm0-logo-200h.png"
                 class="acasa-image2"
               />
               <span class="acasa-text11">
@@ -219,7 +219,7 @@
               <!-- svelte-ignore a11y-img-redundant-alt -->
               <img
                 alt="image"
-                src="./playground_assets/gm0-logo-200h.png"
+                src="playground_assets/gm0-logo-200h.png"
                 class="acasa-image3"
               />
               <h2 class="acasa-text19">Game Manual 0</h2>
@@ -262,11 +262,11 @@
         </div>
         <div class="acasa-footer">
           <footer class="acasa-container8">
-            <a href="./index.html" class="acasa-navlink1">
+            <a href="index.html" class="acasa-navlink1">
               <!-- svelte-ignore a11y-img-redundant-alt -->
               <img
                 alt="image"
-                src="./playground_assets/2-200h.png"
+                src="playground_assets/2-200h.png"
                 class="acasa-image4"
               />
             </a>
