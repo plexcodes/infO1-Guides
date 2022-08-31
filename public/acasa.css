@@ -290,6 +290,10 @@
   text-decoration: none;
   background-color: rgba(217, 217, 217, 0.21);
   border-top-right-radius: 15;
+  transition: transform .2s;
+}
+.acasa-feature-card:hover{
+  transform: scale(1.025);
 }
 .acasa-image2 {
   width: 196px;
@@ -365,6 +369,7 @@
   background-color: rgba(217, 217, 217, 0.21);
   border-top-right-radius: 15;
 }
+
 .acasa-image3 {
   width: 196px;
   height: 129px;
