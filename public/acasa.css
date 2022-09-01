@@ -592,7 +592,7 @@
   }
   .acasa-text {
     width: 100vw;
-    height: 126px;
+    height: auto;
     font-size: 40px;
     font-style: normal;
     font-family: League Spartan;
