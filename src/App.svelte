@@ -207,7 +207,7 @@ onMount(() => (ready = true));
                 <span>
                   &quot;Game Manual 0&quot; este cel mai vast ghid existent
                   pentru programul First Tech Challenge, la care au contribuit
-                  peste 30 de membri sau alumni ale celor mai de succes echipe
+                  peste 30 de membri și alumni ale celor mai de succes echipe
                   FTC sau FRC din Statele Unite ale Americii și tradus în limba
                   română de echipa &quot;infO(1)Robotics&quot; și alți
                   colaboratori.
