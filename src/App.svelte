@@ -199,7 +199,7 @@ onMount(() => (ready = true));
                 class="acasa-image2"
               />
               <span class="acasa-text11">
-                <span>Ultima Actualizare: 31/8/2022</span>
+                <span>Ultima Actualizare: 29/1/2023</span>
                 <br />
               </span>
               <h2 class="acasa-text14">Game Manual 0</h2>
@@ -263,7 +263,7 @@ onMount(() => (ready = true));
                 <br />
               </span>
               <span class="acasa-text25">
-                <span>Procentaj Tradus: 37%</span>
+                <span>Procentaj Tradus: 41.74%</span>
                 <br />
               </span>
             </div>
